@@ -11,7 +11,7 @@ spring:
           enabled: true
       routes:
         - id: students
-          uri: http://localhost:8091
+          uri: http://localhost:8090
           predicates:
             - Path=/api/student/**
         - id: courses
